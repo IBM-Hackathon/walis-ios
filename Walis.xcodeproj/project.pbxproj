@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C8F68DF3989ED608E21E64A /* libPods-Walis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D06874FAFF73EA5A29C7FFDA /* libPods-Walis.a */; };
+		DFED5AAB1DA968F500707C7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFED5AAA1DA968F500707C7E /* main.m */; };
+		DFED5AAE1DA968F500707C7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFED5AAD1DA968F500707C7E /* AppDelegate.m */; };
+		DFED5AB11DA968F500707C7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFED5AB01DA968F500707C7E /* ViewController.m */; };
+		DFED5AB41DA968F500707C7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFED5AB21DA968F500707C7E /* Main.storyboard */; };
+		DFED5AB61DA968F500707C7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFED5AB51DA968F500707C7E /* Assets.xcassets */; };
+		DFED5AB91DA968F500707C7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFED5AB71DA968F500707C7E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A09D2CF77803E0E31809E627 /* Pods-Walis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Walis/Pods-Walis.debug.xcconfig"; sourceTree = "<group>"; };
+		D06874FAFF73EA5A29C7FFDA /* libPods-Walis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Walis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFED5AA61DA968F500707C7E /* Walis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Walis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFED5AAA1DA968F500707C7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFED5AAC1DA968F500707C7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFED5AAD1DA968F500707C7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFED5AAF1DA968F500707C7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFED5AB01DA968F500707C7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFED5AB31DA968F500707C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFED5AB51DA968F500707C7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFED5AB81DA968F500707C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFED5ABA1DA968F500707C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFED5AC01DA96EB300707C7E /* Walis.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Walis.entitlements; sourceTree = "<group>"; };
+		ED9629103B58B7EDAF30E124 /* Pods-Walis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Walis/Pods-Walis.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFED5AA31DA968F500707C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8F68DF3989ED608E21E64A /* libPods-Walis.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3073C288604355964C050A85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D06874FAFF73EA5A29C7FFDA /* libPods-Walis.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		983DD1B5291EFF138059CF31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A09D2CF77803E0E31809E627 /* Pods-Walis.debug.xcconfig */,
+				ED9629103B58B7EDAF30E124 /* Pods-Walis.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFED5A9D1DA968F500707C7E = {
+			isa = PBXGroup;
+			children = (
+				DFED5AA81DA968F500707C7E /* Walis */,
+				DFED5AA71DA968F500707C7E /* Products */,
+				983DD1B5291EFF138059CF31 /* Pods */,
+				3073C288604355964C050A85 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DFED5AA71DA968F500707C7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFED5AA61DA968F500707C7E /* Walis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFED5AA81DA968F500707C7E /* Walis */ = {
+			isa = PBXGroup;
+			children = (
+				DFED5AC01DA96EB300707C7E /* Walis.entitlements */,
+				DFED5AAC1DA968F500707C7E /* AppDelegate.h */,
+				DFED5AAD1DA968F500707C7E /* AppDelegate.m */,
+				DFED5AAF1DA968F500707C7E /* ViewController.h */,
+				DFED5AB01DA968F500707C7E /* ViewController.m */,
+				DFED5AB21DA968F500707C7E /* Main.storyboard */,
+				DFED5AB51DA968F500707C7E /* Assets.xcassets */,
+				DFED5AB71DA968F500707C7E /* LaunchScreen.storyboard */,
+				DFED5ABA1DA968F500707C7E /* Info.plist */,
+				DFED5AA91DA968F500707C7E /* Supporting Files */,
+			);
+			path = Walis;
+			sourceTree = "<group>";
+		};
+		DFED5AA91DA968F500707C7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFED5AAA1DA968F500707C7E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFED5AA51DA968F500707C7E /* Walis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFED5ABD1DA968F500707C7E /* Build configuration list for PBXNativeTarget "Walis" */;
+			buildPhases = (
+				2223C69E45A87379732947BF /* [CP] Check Pods Manifest.lock */,
+				DFED5AA21DA968F500707C7E /* Sources */,
+				DFED5AA31DA968F500707C7E /* Frameworks */,
+				DFED5AA41DA968F500707C7E /* Resources */,
+				F81015A67359FF646567CE89 /* [CP] Embed Pods Frameworks */,
+				8E7E270F09F408D0253A8211 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Walis;
+			productName = Walis;
+			productReference = DFED5AA61DA968F500707C7E /* Walis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFED5A9E1DA968F500707C7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = snakeNet.org;
+				TargetAttributes = {
+					DFED5AA51DA968F500707C7E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BD855799HU;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DFED5AA11DA968F500707C7E /* Build configuration list for PBXProject "Walis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFED5A9D1DA968F500707C7E;
+			productRefGroup = DFED5AA71DA968F500707C7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFED5AA51DA968F500707C7E /* Walis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFED5AA41DA968F500707C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFED5AB91DA968F500707C7E /* LaunchScreen.storyboard in Resources */,
+				DFED5AB61DA968F500707C7E /* Assets.xcassets in Resources */,
+				DFED5AB41DA968F500707C7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2223C69E45A87379732947BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E7E270F09F408D0253A8211 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Walis/Pods-Walis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F81015A67359FF646567CE89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Walis/Pods-Walis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFED5AA21DA968F500707C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFED5AB11DA968F500707C7E /* ViewController.m in Sources */,
+				DFED5AAE1DA968F500707C7E /* AppDelegate.m in Sources */,
+				DFED5AAB1DA968F500707C7E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFED5AB21DA968F500707C7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFED5AB31DA968F500707C7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFED5AB71DA968F500707C7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFED5AB81DA968F500707C7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFED5ABB1DA968F500707C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFED5ABC1DA968F500707C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFED5ABE1DA968F500707C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09D2CF77803E0E31809E627 /* Pods-Walis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Walis/Walis.entitlements;
+				DEVELOPMENT_TEAM = BD855799HU;
+				INFOPLIST_FILE = Walis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.snakenet.Walis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFED5ABF1DA968F500707C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9629103B58B7EDAF30E124 /* Pods-Walis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Walis/Walis.entitlements;
+				DEVELOPMENT_TEAM = BD855799HU;
+				INFOPLIST_FILE = Walis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.snakenet.Walis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFED5AA11DA968F500707C7E /* Build configuration list for PBXProject "Walis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFED5ABB1DA968F500707C7E /* Debug */,
+				DFED5ABC1DA968F500707C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFED5ABD1DA968F500707C7E /* Build configuration list for PBXNativeTarget "Walis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFED5ABE1DA968F500707C7E /* Debug */,
+				DFED5ABF1DA968F500707C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFED5A9E1DA968F500707C7E /* Project object */;
+}
