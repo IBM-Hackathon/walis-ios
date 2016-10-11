@@ -48,7 +48,15 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     
     cell.textLabel.text = [_history[indexPath.row] objectForKey:@"content"];
-    cell.detailTextLabel.text = @"Heute"; // [_history[indexPath.row] objectForKey:@"time"];
+    NSInteger timestamp = [[_history[indexPath.row] objectForKey:@"time"] integerValue];
+    NSString * timeStampString = [NSString stringWithFormat:@"%li", (long)timestamp];
+    NSTimeInterval _interval=[timeStampString doubleValue];
+    NSDate *date = [NSDate dateWithTimeIntervalSince1970:_interval];
+    
+    NSString *dateString = [NSDateFormatter localizedStringFromDate:date
+                                                          dateStyle:NSDateFormatterShortStyle
+                                                          timeStyle:NSDateFormatterFullStyle];
+    cell.detailTextLabel.text = dateString ; // [_history[indexPath.row] objectForKey:@"time"];
     
     return cell;
 }

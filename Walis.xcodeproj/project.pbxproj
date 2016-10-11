@@ -359,6 +359,7 @@
 				CODE_SIGN_ENTITLEMENTS = Walis/Walis.entitlements;
 				DEVELOPMENT_TEAM = BD855799HU;
 				INFOPLIST_FILE = Walis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.snakenet.Walis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -373,6 +374,7 @@
 				CODE_SIGN_ENTITLEMENTS = Walis/Walis.entitlements;
 				DEVELOPMENT_TEAM = BD855799HU;
 				INFOPLIST_FILE = Walis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.snakenet.Walis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
