@@ -9,12 +9,16 @@ Last revision: `09.10.2016` by [ @marc-fiedler ]
 |License|MIT|
 |runs on|XCode 8.0 / iOS 8.4+|
 |Robot Repository|https://github.com/IBM-Hackathon/walis|
+|API Endpoint|https://snakenet.org/api/walis|
 
 ## Basic idea
 The Walis App for iOS has been designed to make it easy to interact with robots directly from a remote location. The robot Walis can send silent and active push notifications to one specific or a range of iOS devices. Silent notifications are ment to create a history of events that happend and active push notifications are ment for alerts or warnings.
 
 ![Screenshot](screenshots/screen2.jpg)
 
+
+## Technical information
+This API endpoint is a relay for IBM Bluemix communication and enables the robot to directly communicate with a phone. The API on the server is only an abstraction layer between the robot and IBM Bluemix.
 
 ## API
 
@@ -36,7 +40,7 @@ For a complete set of calls please visit the Wiki of this repository
 
 ```json
 {
-    "Request": "Devices",   
+    "Request": "Ping",   
     "Api": {
         "Version": "4.0"
     }
@@ -53,7 +57,7 @@ The API will reply with HTTP response codes. On Success the API will answer with
   },
   "Time": 1475068534,
   "Status": {
-    "Package": "Beckroege App",
+    "Package": "WALIS App",
     "Type": 1,
     "Message": "Pong"
   },
@@ -74,6 +78,41 @@ The API will reply with HTTP response codes. On Success the API will answer with
   "Status": {
     "Code": 406,
     "Message": "Invalid Ophion-Interface"
+  }
+}
+```
+> NOTE: the status code here will be the same as the HTTP Response code
+
+## Push request
+```json
+{
+    "Request": "Push",
+    "Title": "Walis Robot report",
+    "Body": "Hey, you should your mum a call, she forgot her blue pills today.",
+    "Badge": 1,
+    "Sound": "default",
+    "Device": 0,
+    
+    "Api": {
+        "Version": "4.0"
+    }
+}
+```
+> NOTE: the device ID 0 means that it will be broadcasted to all registered devices.
+
+If everything went well, the reply will look like this:
+
+```json
+{
+  "Api": {
+    "Version": "4.0"
+  },
+  "Time": 1476367787,
+  "Status": {
+    "Package": "WALIS App",
+    "Type": 1,
+    "Message": "Messages delivered",
+    "MessageCount": 1
   }
 }
 ```
